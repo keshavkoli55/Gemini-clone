@@ -2,22 +2,22 @@
 This React web app mimics the functionality of Google's Gemini AI. It allows users to interact with the latest generative AI model through an intuitive interface, providing accurate and informative responses.
 
 <h3>Features</h3>
-<div>Interact with Generative AI: Ask questions and receive responses with 95% accuracy.
+<span>Interact with Generative AI: Ask questions and receive responses with 95% accuracy.
 Intuitive Interface: User-friendly interface for seamless interaction.
 Technology Stack: HTML, CSS, JavaScript, React.
 API Integration: Integrated with Bard APIs.
-Getting Started</div>
+Getting Started</span>
 
 # Prerequisites
-$ Node.js
-$ npm (Node Package Manager)
+$Node.js
+$npm (Node Package Manager)
 
 # Installation
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/yourusername/gemini-clone.git
-cd gemini-clone
+$git clone https://github.com/yourusername/gemini-clone.git
+$cd gemini-clone
 
 # Install dependencies:
 
