@@ -4,7 +4,7 @@ import { assets } from '../../assets/assets'
 import { Context } from '../../context/Context'
 
 const Main = () => {
-
+  // demonstrates how a React component retrieves data from a context.
     const{onSent,recentPrompt,showResult,loading,resultData,setInput,input}=useContext(Context);
   return (
     <div className='main'>
@@ -52,6 +52,7 @@ const Main = () => {
               <hr />
             </div>  
             :<p dangerouslySetInnerHTML={{__html:resultData}}></p>
+            //dangerouslySetInnerHTML will show the html tag along with result data , and by using __html: it will hide the html tags 
             }
           </div>
         </div>

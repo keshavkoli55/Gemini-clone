@@ -1,3 +1,4 @@
+// Each import statement imports an image file and assigns it to a variable. The variable names correspond to the purpose or visual representation of the icons.
 import history_icon from './history_icon.png'
 import menu_icon from './menu_icon.png'
 import plus_icon from './plus_icon.png'
@@ -15,7 +16,7 @@ import send_icon from './send_icon.png'
 import gemini_icon from './gemini_icon.png'
 // import images 
 // and export using assets
-
+// This creates and exports an assets object, which holds all the imported icons. Each icon can be accessed as a property of this object.
 export const assets = {
     history_icon,
     menu_icon,
